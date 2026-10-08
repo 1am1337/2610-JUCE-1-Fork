@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Setup — macOS",
+      "type": "lldb-dap",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/setup-check",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build setup",
+      "debugAdapterExecutable": "${workspaceFolder}/.vscode/lldb-dap.sh",
+      "console": "integratedTerminal",
+      "runInTerminal": true,
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "name": "Setup — Linux",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/setup-check",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build setup",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "externalConsole": false
+    },
+    {
+      "name": "Setup — Windows",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/setup-check.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build setup",
+      "console": "integratedTerminal"
+    }
+  ]
+}

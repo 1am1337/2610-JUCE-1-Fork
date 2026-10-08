@@ -1,0 +1,8 @@
+build/
+setup-check
+setup-check.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+*.dSYM/

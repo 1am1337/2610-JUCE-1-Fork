@@ -1,0 +1,38 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build selected session",
+      "type": "process",
+      "command": "python3",
+      "args": ["${workspaceFolder}/.vscode/build_session.py", "${input:session}"],
+      "windows": {
+        "command": "py",
+        "args": ["-3", "${workspaceFolder}/.vscode/build_session.py", "${input:session}"],
+        "problemMatcher": ["$msCompile"]
+      },
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": ["$gcc"]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "session",
+      "type": "pickString",
+      "description": "Select setup or a course session to build and debug",
+      "options": [
+        "setup",
+        "session-01",
+        "session-02",
+        "session-03",
+        "session-04",
+        "session-05",
+        "session-06",
+        "session-07",
+        "session-08",
+        "session-09"
+      ],
+      "default": "setup"
+    }
+  ]
+}

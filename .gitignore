@@ -1,0 +1,70 @@
+# Instructor-only session notes and solutions
+SESSION_*.md
+teacher/
+instructor/
+
+# Deferred session materials kept locally until they are needed
+/temp/
+
+# Local copy of the course's pinned JUCE dependency
+/dependencies/JUCE/
+
+# OS metadata and editor temporary files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+.vs/
+*.user
+*.suo
+xcuserdata/
+*.xcuserstate
+
+# CMake and generated build directories (at any depth)
+build/
+build-*/
+cmake-build-*/
+Builds/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+.ninja_deps
+.ninja_log
+
+# Compiled objects, libraries, executables, and debug symbols
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.gch
+*.dSYM/
+/session-*/main
+/session-*/hello
+
+# JUCE application/plugin build products
+*_artefacts/
+*.app/
+*.vst/
+*.vst3/
+*.component/
+*.aaxplugin/
+
+# Keep shared .vscode tasks/launch settings, CMakeLists.txt, presets,
+# .jucer projects, and JUCE source/dependency declarations trackable.
+/.vscode/launch-bin/

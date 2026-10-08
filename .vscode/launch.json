@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Build and launch a course session — macOS",
+      "type": "lldb-dap",
+      "request": "launch",
+      "program": "${workspaceFolder}/.vscode/launch-bin/main",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build selected session",
+      "debugAdapterExecutable": "${workspaceFolder}/.vscode/lldb-dap.sh",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "name": "Build and launch a course session — Linux",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/.vscode/launch-bin/main",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build selected session",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "externalConsole": false
+    },
+    {
+      "name": "Build and launch a course session — Windows",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/.vscode/launch-bin/main.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build selected session",
+      "console": "integratedTerminal"
+    }
+  ]
+}
