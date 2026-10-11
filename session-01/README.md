@@ -1,6 +1,6 @@
 # Session 01 — First program: edit, build, run
 
-Start with the supplied `source/main.cpp`. It contains an empty `main` function. Work in your own copy of the course files; keep the teaching checkout unchanged.
+This teaching checkout now includes the worked solution in `source/main.cpp`. The in-class exercises below describe the steps students should complete in their own copy, starting from an empty `main` function. Keep this reference checkout unchanged while working.
 
 ## What you will learn
 
