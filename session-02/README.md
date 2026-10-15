@@ -28,7 +28,7 @@ Print a warning above 300 BPM without treating it as invalid.
 
 ## Practice after class
 
-Try one very slow and one fast positive tempo and explain whether the result makes musical sense.
+Extend the program to print a BPM classification: `slow` below 60, `moderate` from 60 to below 120, `fast` from 120 through 180, and `high` above 180. Keep nonpositive BPM invalid and do not calculate a duration for it. Test the boundary values 0, 59, 60, 119, 120, 180, and 181 BPM.
 
 ## Build and run
 

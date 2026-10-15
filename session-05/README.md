@@ -29,7 +29,7 @@ Try a conditional breakpoint for bpm == 137 if time remains; ordinary breakpoint
 
 ## Practice after class
 
-Record one breakpoint location, observed value, hypothesis, and confirmed cause.
+After fixing the integer-division bug, add `threeBeatsMs` using `beatDurationMs`. Print its result at 120 and 137 BPM, then debug the 137 BPM call: stop inside `beatDurationMs` and inspect the input and returned value.
 
 ## Build and run
 

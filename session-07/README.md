@@ -49,7 +49,7 @@ Add one additional source file explicitly to the target, without file globbing.
 
 ## Practice after class
 
-Write a three-command configure/build/run guide for your own platform.
+Move a calculation into a new `Tempo.cpp` file and declare it in `Tempo.h`. Add `Tempo.cpp` explicitly to the CMake target, build, then change only `Tempo.cpp` and rebuild. Note which source is recompiled and explain why `main.cpp` does not need recompiling.
 
 ## Build and run
 

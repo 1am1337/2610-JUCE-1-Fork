@@ -28,7 +28,7 @@ Add a setter that ignores nonpositive BPM and verify it preserves the previous v
 
 ## Practice after class
 
-Explain the difference between the constructor and an ordinary method.
+Add `setBpm(double newBpm)` to `Tempo`. Accept only positive values; for zero or a negative value, preserve the current BPM. Try changing the first object and show that the second object's BPM and beat duration remain unchanged.
 
 ## Build and run
 

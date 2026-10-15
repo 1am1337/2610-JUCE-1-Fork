@@ -4,7 +4,7 @@ A supplied starting point, not a completed exercise. All tasks use only this ses
 
 ## What you will learn
 
-Repeat an operation; distinguish an index from a value; traverse a fixed-size std::array safely.
+Repeat an operation with range-based, counting, and while loops; distinguish an index from a value; traverse a fixed-size std::array safely.
 
 ## Tasks
 
@@ -13,10 +13,11 @@ Repeat an operation; distinguish an index from a value; traverse a fixed-size st
 3. Print each note transposed up by 12. Keep the stored notes unchanged.
 4. Use a counting loop to print beat numbers 1 through 4. Explain where it starts and stops.
 5. Change one array element and show that the loop still handles all four entries.
+6. Use a while loop to print a count-down from 4 to 1. Make sure it stops before printing 0.
 
 ## Check your result
 
-Original notes: 60 62 64 65. Transposed output: 72 74 76 77. Exactly four beat numbers: 1 2 3 4.
+Original notes: 60 62 64 65. Transposed output: 72 74 76 77. The counting loop prints 1 2 3 4; the while loop prints 4 3 2 1.
 
 ## Individual checkpoint
 
@@ -28,7 +29,7 @@ Count how many notes are at least 64. Introduce a vector only after the core tas
 
 ## Practice after class
 
-Write a three-note array and predict its octave-transposed output.
+Expand the array to eight notes. Use a while loop with an index to print each original note beside its octave-transposed value, and count how many transposed notes are at least 76. Advance the index once per iteration and stop after all eight notes.
 
 ## Build and run
 

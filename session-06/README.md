@@ -28,7 +28,7 @@ Compile the two .cpp files separately with -c (or /c), then link the two objects
 
 ## Practice after class
 
-Explain #include <iostream>, #include "Tempo.h", and the role of #pragma once.
+Add `barDurationMs(double bpm, int beatsPerBar)` to `Tempo.h` and `Tempo.cpp`, implemented using `beatDurationMs`. Call it from `main.cpp` for 3/4 and 4/4 at 120 BPM; expect 1500 ms and 2000 ms.
 
 ## Build and run
 

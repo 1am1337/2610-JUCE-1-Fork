@@ -28,7 +28,7 @@ Write fourBeatsMs using an existing function.
 
 ## Practice after class
 
-Draw the flow of a number into a function and the return value back to the caller.
+Add `barDurationMs(bpm, beatsPerBar)`, implemented by calling `beatDurationMs`. Print the duration of 3/4 and 4/4 bars at 120 BPM and check the results: 1500 ms and 2000 ms.
 
 ## Build and run
 
