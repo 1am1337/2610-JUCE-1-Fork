@@ -1,24 +1,24 @@
-# Session 07 — CMake and a personal Git workflow
+# Session 07 — CMake and Git
 
 A supplied starting point, not a completed exercise. All tasks use only this session’s files.
 
 ## What you will learn
 
-Write a minimal CMake project; distinguish configure/build/run; inspect, commit, and undo a small change in a personal repository.
+Write a minimal CMake project; distinguish configure/build/run; inspect, commit, and undo a small change using the Git workflow agreed in class.
 
 ## Tasks
 
 1. Build the supplied project. Explain minimum version, project, executable target, and its source list.
-2. In a new practice folder in your own repository, recreate this small project and CMakeLists.txt with notes allowed. Build it in a fresh build directory.
+2. In a new folder, recreate this small project and CMakeLists.txt with notes allowed. Build it in a fresh build directory.
 3. Build again without editing; observe no recompilation. Edit source/main.cpp and rebuild.
-4. In your own work repository, run git status and git diff. Make a baseline commit before editing the session. If Git asks, configure your own author name/email for this repository.
+4. In the Git repository you are using for the course, run git status and git diff. Make a baseline commit before editing the session. If Git asks, configure your author name/email for this repository.
 5. Change only the printed label. Inspect the diff, build/run, and either commit or discard just that change.
 
 ## Check your result
 
-### Git command reference — your own work only
+### Git command reference
 
-Run these from your personal course repository, never the teaching checkout. If it is not a repository yet, run `git init` in that personal course folder. Add `build/`, `build-*/`, and generated executables to its `.gitignore` before committing.
+Run these from the Git repository you are using for the course. Follow the workflow agreed in class; this may be a personal repository or a branch in the course repository. Before committing, add `build/`, `build-*/`, and generated executables to `.gitignore`.
 
 If author details are missing, set them for this repository using your own values:
 
@@ -27,7 +27,7 @@ git config user.name "Your Name"
 git config user.email "your-chosen-email@example.com"
 ```
 
-From your copied session folder, create a baseline before editing:
+From the session folder, create a baseline before editing:
 
 ```bash
 git status
@@ -53,7 +53,7 @@ Write a three-command configure/build/run guide for your own platform.
 
 ## Build and run
 
-Open **this session folder** in VS Code, not the course root. Work in your own copy; keep the teaching checkout unchanged. Complete [setup](../setup/README.md) first. These are supplied build commands until session 7 explains CMake.
+Open **this session folder** in VS Code, not the course root. Save your changes in this session folder and follow the Git workflow agreed in class. Complete [setup](../setup/README.md) first. These are supplied build commands until session 7 explains CMake.
 
 Configure on macOS/Linux:
 

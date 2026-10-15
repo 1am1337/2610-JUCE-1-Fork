@@ -32,7 +32,7 @@ Explain #include <iostream>, #include "Tempo.h", and the role of #pragma once.
 
 ## Build and run
 
-Open **this session folder** in VS Code. Run these commands from its terminal after saving your files. Work in your own copy; keep the teaching checkout unchanged.
+Open **this session folder** in VS Code. Run these commands from its terminal after saving your files. Follow the Git workflow agreed in class when keeping your changes.
 
 **macOS:**
 

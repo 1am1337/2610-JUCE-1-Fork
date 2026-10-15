@@ -32,7 +32,7 @@ Draw lifetimes of the outer object and one inner object. Do not run intentionall
 
 ## Build and run
 
-Open **this session folder** in VS Code, not the course root. Work in your own copy; keep the teaching checkout unchanged. Complete [setup](../setup/README.md) first. These are supplied build commands until session 7 explains CMake.
+Open **this session folder** in VS Code, not the course root. Save your changes in this session folder and follow the Git workflow agreed in class. Complete [setup](../setup/README.md) first. These are supplied build commands until session 7 explains CMake.
 
 Configure on macOS/Linux:
 

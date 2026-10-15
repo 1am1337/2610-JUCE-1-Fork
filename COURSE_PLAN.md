@@ -27,7 +27,7 @@ We will set up VS Code and the C++ tools together in class. You do not need to i
 ## How we will work
 
 - Keep programs small enough to understand and explain.
-- Make your own changes in your own copy of the project. Treat the course repository as a reference; your implementation does not need to match the teacher's line for line.
+- Use the Git workflow agreed in class for your experience level; this may be a personal repository or a branch in the course repository. Your implementation does not need to match the teacher's line for line.
 - Build and run your program to check its behavior. A successful build alone does not prove the result is correct.
 
 The final application will be intentionally modest: one window, one or two controls, and one result. Audio processing and plugin development are outside this course's scope.
